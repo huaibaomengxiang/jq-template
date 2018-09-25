@@ -1,4 +1,4 @@
-# -tempjqlate
+# jq-tempjqlate
 这是一个jq的模板仓库，技术栈：webpack + jq + less + eslint 
 ##项目目录
 ```
