@@ -17,14 +17,14 @@ const config = merge.smart(baseConfig, {
           'css-loader',
           'postcss-loader',
           'less-loader'
-        ]
+        ],
       }
     ]
   },
 })
 
 config.plugins.push(new MiniExtractPlugin({
-  filename: 'css/[name].[hash:8].css',
+  filename: '[name].[hash:8].css',
   chunkFilename: '[id].[hash:8].css'
 }));
 
